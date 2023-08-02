@@ -1,0 +1,62 @@
+.container
+{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 280px;
+  border: 1px solid;
+  border-radius: 20px ;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 10px 5px 10px 1px slategray;
+  
+}
+img
+{
+  margin-top: 26px;
+  width: 200px;
+  border: 1px solid;
+ 
+}
+h4
+{
+  border-top: 1px solid;
+ 
+  width: 240px;
+  padding-top: 16px;
+  margin-left: -20px;
+  text-align: center;
+} 
+
+main
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+.logo
+{
+  
+  background: salmon;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  right: -260px;
+  bottom: 26px;
+  border-radius: 40px 40px 40px 40px;
+  text-align: center;
+  border: solid 1px;
+  
+}
+.logo>p1
+{
+  
+  position: relative;
+  right: 200px;
+  top: -16px;
+}
+.logo>p
+{
+  
+  position: relative;
+  top: 8px;
+}
